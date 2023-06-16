@@ -13,6 +13,8 @@ def calc(a, b, operation):
     elif operation == 4:
         print('Division ' + str(int(a / b)))
         return int(a / b)
+    else:
+        print("This function is not supported")
 
 
-calc(515, 15, 4)
+calc(515, 15, 2)
